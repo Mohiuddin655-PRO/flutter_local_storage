@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:local_storage/local_storage.dart';
+import 'package:flutter_local_storage/local_storage.dart';
 
 void main() {
   runApp(const MyApp());

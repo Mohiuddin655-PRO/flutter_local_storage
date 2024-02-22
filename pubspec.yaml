@@ -1,4 +1,4 @@
-name: local_storage
+name: flutter_local_storage
 description: "LocalStorage in Dart simplifies file operations for saving, loading, and deleting files, providing a concise solution for efficient local storage in applications."
 version: 0.0.1
 repository: https://github.com/Mohiuddin655-PRO/flutter_local_storage.git

@@ -123,4 +123,12 @@ class LocalStorage {
       await file.delete();
     }
   }
+
+  /// Check the file with the specified [filename]
+  ///
+  /// Returns a [Future] that completes once the file is existed
+  Future<bool> isExisted(String filename) async {
+    final file = await _file(filename);
+    return file.exists();
+  }
 }
